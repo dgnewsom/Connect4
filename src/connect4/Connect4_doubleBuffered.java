@@ -245,7 +245,7 @@ public class Connect4_doubleBuffered extends Canvas implements MouseListener
 	}
 	}
 	  
-	static Color getColour(int state) {
+	public static Color getColour(int state) {
 		Color result = null;
 		
 		switch(state) {
